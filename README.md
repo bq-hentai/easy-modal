@@ -1,12 +1,10 @@
 easy-modal
 ===========
 
-** No *md Wrap **
-
-## Use
+## Usage
 
 ```
-new Modal(content, opts);
+new Modal(content, opts)
 ```
 
 ## APIS
@@ -14,7 +12,7 @@ new Modal(content, opts);
 ### create
 
 ```
-var modal = new Modal(content, opts);
+var modal = new Modal(content, opts)
 ```
 
 #### opts
@@ -30,5 +28,5 @@ var opts = {
 ### close
 
 ```
-modal.close();
+modal.close()
 ```
