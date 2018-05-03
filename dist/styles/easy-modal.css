@@ -1,0 +1,103 @@
+/**
+ * easy-modal-style | bq-hentai
+ */
+
+/* resets */
+input, button, select, textarea {
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-size: 14px;
+  font-family: Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+/* the modal layer style */
+.easy-modal-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: block;
+  background: #000;
+  opacity: 0.6;
+  z-index: 9999;
+}
+
+/* the modal box style */
+.easy-modal-box {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  z-index: 10001;
+  width: 500px;
+  background: #fff;
+  z-index: 10000;
+  font-size: 14px;
+  font-family: Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+/* the modal title bar style */
+.easy-modal-title-bar {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  background: #1197d7;
+  font-size: 16px;
+}
+
+.easy-modal-title {
+  float: left;
+  padding: 0 0 0 10px;
+  color: #fff;
+  line-height: 32px;
+}
+
+.easy-modal-close-icon {
+  float: right;
+  display: block;
+  padding: 4px;
+  margin: 0 6px 0 0;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* the modal content wrap style */
+.easy-modal-content {
+  padding: 14px 0;
+}
+
+/* the modal buttons styles */
+.easy-modal-button-wrp {
+  text-align: center;
+  padding: 0 0 14px;
+}
+
+.easy-modal-btn {
+  display: inline-block;
+  text-align: center;
+  margin: 0 0 0 45px;
+  width: 82px;
+  height: 28px;
+  line-height: 28px;
+  overflow: visible;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #b1b1b1;
+}
+
+.easy-modal-btn:first-child {
+  margin-left: 0;
+}
+
+.easy-modal-btn.ok-btn {
+  background: #1197d5;
+}
+
+
